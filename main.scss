@@ -9,3 +9,10 @@
 .fuente-titulo {
     font-family: 'Permanent Marker', cursive;
 }
+
+$dorado : #F6E782;
+
+.color-titulo { background: -webkit-linear-gradient(to right, #F6E782 0%, #23B6C2 100%);
+    background: -moz-linear-gradient(to right, #F6E782 0%, #23B6C2 100%);
+    background: linear-gradient(to right, #e5d250 0%, #1cecfd 100%); 
+}
