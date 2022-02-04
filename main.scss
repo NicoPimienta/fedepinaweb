@@ -1,8 +1,11 @@
 
 // Boostrap con CSS modificado
 
-@import url(./scss/bootstrap-grey-mod.scss);
+@import "./scss/_bootstrap-grey-mod";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 //Fuente Titulo
 
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.fuente-titulo {
+    font-family: 'Permanent Marker', cursive;
+}
