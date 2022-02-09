@@ -12298,8 +12298,8 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.7)), to(#000)), url("../img/v2osk-1Z2niiBPg5A-unsplash-min.jpg");
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.7) 100%, #000 100%), url("../img/v2osk-1Z2niiBPg5A-unsplash-min.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(98%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.7)), to(#000)), url("../img/v2osk-1Z2niiBPg5A-unsplash-min.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 98%, rgba(0, 0, 0, 0.7) 100%, #000 100%), url("../img/v2osk-1Z2niiBPg5A-unsplash-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12349,8 +12349,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(75%, rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8)));
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background-color: #00b4d8;
 }
 
 .about-section p {
@@ -12462,8 +12461,50 @@ body {
   font-family: 'Permanent Marker', cursive;
 }
 
+.fuente-textoComun {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg-cuadrados-servicios {
+  background-color: #0096c7;
+}
+
+.bg-project {
+  background-color: #83c5be;
+}
+
+.bg-cualidades {
+  background-color: #006d77;
+}
+
 .color-titulo {
   background: -webkit-gradient(linear, left top, right top, from(#e5d250), to(#1cecfd));
   background: linear-gradient(to right, #e5d250 0%, #1cecfd 100%);
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2, .content-section-heading .h2 {
+  font-size: 3rem;
+}
+
+.content-section-heading h3, .content-section-heading .h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.service-icon {
+  background-color: #fff;
+  color: #1D809F;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 /*# sourceMappingURL=main.css.map */

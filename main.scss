@@ -4,15 +4,68 @@
 @import "./scss/_bootstrap-grey-mod";
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-//Fuente Titulo
+$dorado : #F6E782;
+//Fuentes
 
 .fuente-titulo {
     font-family: 'Permanent Marker', cursive;
 }
 
-$dorado : #F6E782;
+.fuente-textoComun{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+//Backgrounds
+
+.bg-cuadrados-servicios{
+    background-color: #0096c7;
+}
+
+.bg-project{
+  background-color: #83c5be;
+}
+
+.bg-cualidades{
+  background-color: #006d77;
+
+// tomada de https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578
+}
+
+
+
+
+
+
+
+
+
+
 
 .color-titulo { background: -webkit-linear-gradient(to right, #F6E782 0%, #23B6C2 100%);
     background: -moz-linear-gradient(to right, #F6E782 0%, #23B6C2 100%);
     background: linear-gradient(to right, #e5d250 0%, #1cecfd 100%); 
 }
+
+.content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+  }
+  
+  .content-section-heading h2, .content-section-heading .h2 {
+    font-size: 3rem;
+  }
+  .content-section-heading h3, .content-section-heading .h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .service-icon {
+    background-color: #fff;
+    color: #1D809F;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
