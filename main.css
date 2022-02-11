@@ -12457,6 +12457,10 @@ body {
   padding: 5rem 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .fuente-titulo {
   font-family: 'Permanent Marker', cursive;
 }

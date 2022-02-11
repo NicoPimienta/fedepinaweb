@@ -1,8 +1,12 @@
-
 // Boostrap con CSS modificado
 
 @import "./scss/_bootstrap-grey-mod";
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+  overflow-x: hidden;
+}
+
 
 $dorado : #F6E782;
 //Fuentes
