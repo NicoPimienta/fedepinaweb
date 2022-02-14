@@ -125,9 +125,16 @@ background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
 .seccion-recom{
   padding: 10rem;
   background-color: #edf6f9;
+  // background-image: url('img/bg-testimonio.jpeg');
+  // background-size: contain;
 }
 
-
+.user-photo {
+  width: 120px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
 
 
 

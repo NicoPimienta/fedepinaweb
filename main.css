@@ -12573,6 +12573,13 @@ body {
   background-color: #edf6f9;
 }
 
+.user-photo {
+  width: 120px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
 .color-titulo {
   background: -webkit-gradient(linear, left top, right top, from(#e5d250), to(#1cecfd));
   background: linear-gradient(to right, #e5d250 0%, #1cecfd 100%);
