@@ -12500,7 +12500,7 @@ body {
 }
 
 .bg-testim {
-  background-image: url("/img/pexels-freestocksorg-412462.jpg");
+  background-image: url(img/pexels-freestocksorg-412462.jpg);
   background-position: center;
   background-size: cover;
   drop-shadow: 2px 4px 6px black;
@@ -12585,11 +12585,6 @@ body {
 
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff;
-}
-
-.seccion-recom {
-  padding: 10rem;
-  background-color: #edf6f9;
 }
 
 .user-photo {
