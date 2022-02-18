@@ -4,7 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 body {
   overflow-x: hidden;
@@ -33,11 +34,15 @@ $dorado : #F6E782;
 }
 
 .fuente-recom{
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+.fuente-montse{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .texto-test{
-  color: white;
+  color: #3a3232;
   font-weight: bold;
   }
 
@@ -61,10 +66,10 @@ $dorado : #F6E782;
 }
 
 .bg-testim{
-  background-image: url(img/pexels-freestocksorg-412462.jpg);
+  background-image: url(img/bg-testimonio-3-blur2.jpg);
   background-position: center;
   background-size: cover;
-  drop-shadow:(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 
@@ -181,4 +186,87 @@ background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
     line-height: 7.5rem;
     font-size: 3.25rem;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  // Sección Contacto
+
+  .seccion-contacto {
+    padding: 6rem 0;
+
+  }
+
+
+
+
+  @keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-20px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+  }
+  
+  .container2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 5px white solid;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    img { width: 100%; height: auto; }
+  }
+  
+  .content {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .suppoprt-me {
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 20vw;
+    max-width: 250px;
+    min-width: 200px;
+    z-index: 9;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  span a {
+    font-size: 18px;
+    color: #cccccc;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      color: #ffffff;
+    }
   }
