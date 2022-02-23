@@ -314,6 +314,7 @@ $dorado: #f6e782;
 }
 .gray-bg {
     background-color: #ebf4fa;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .px-btn.theme {
     background: #fe4f6c;
@@ -341,4 +342,12 @@ $dorado: #f6e782;
     background: transparent;
     border: 2px solid #fe4f6c;
     color: #fe4f6c;
+}
+
+.divider-hr {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #006d77;
+  opacity: 1;
 }
