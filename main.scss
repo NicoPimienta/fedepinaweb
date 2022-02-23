@@ -66,6 +66,30 @@ $dorado: #f6e782;
   filter: drop-shadow(2px 4px 6px black);
 }
 
+
+
+
+//Servicios
+
+.texto-blanco-servicios{
+  --bs-text-opacity: 2;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+
+
+.project-text-tortu {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px){
+.projects-section-tortu .project-text-tortu {
+    padding: 4rem;
+}
+}
+
+
 //Boton del titulo
 
 .btn-13 {
@@ -175,81 +199,147 @@ $dorado: #f6e782;
 
 // Sección Contacto
 
-.seccion-contacto {
-  padding: 6rem 0;
-  background-color: #64b6ac;
-}
+// 
 
-@keyframes float {
-  0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px);
-  }
-  50% {
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    transform: translatey(-20px);
-  }
-  100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px);
+@media (max-width: 991px) {
+  .about-text {
+    margin-top: 40px;
   }
 }
-
-.container2 {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 10px;
 }
-
-.avatar {
-  width: 150px;
-  height: 150px;
-  box-sizing: border-box;
-  border: 5px white solid;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-  transform: translatey(0px);
-  animation: float 6s ease-in-out infinite;
-  img {
-    width: 100%;
-    height: auto;
+@media (max-width: 767px) {
+  .about-text h3 {
+    font-size: 35px;
   }
 }
-
-.content {
-  width: 100%;
-  max-width: 600px;
-  padding: 20px 40px;
-  box-sizing: border-box;
-  text-align: center;
+.about-text h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
 }
-
-.suppoprt-me {
-  display: inline-block;
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  width: 20vw;
-  max-width: 250px;
-  min-width: 200px;
-  z-index: 9;
-  img {
-    width: 100%;
-    height: auto;
+@media (max-width: 767px) {
+  .about-text h4 {
+    font-size: 18px;
   }
 }
-
-span a {
+.about-text p {
   font-size: 18px;
-  color: #cccccc;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: all 0.4s ease-in-out;
-  &:hover {
-    color: black;
+}
+.about-text p mark {
+  font-weight: 600;
+  color: #3a3973;
+}
+.about-text .btn-bar {
+  padding-top: 8px;
+}
+.about-text .btn-bar a {
+  min-width: 150px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.about-list {
+  padding-top: 10px;
+}
+.about-list .media {
+  padding: 5px 0;
+}
+.about-list label {
+  color: #3a3973;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: #3a3973;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+.about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.about-img {
+  box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  background: #ffffff;
+}
+@media (max-width: 991px) {
+  .about-img {
+    margin-top: 30px;
   }
 }
+
+.counter-section {
+  padding: 40px 20px;
+}
+.counter-section .count-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.counter-section .count {
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+.counter-section p {
+  font-weight: 500;
+  margin: 0;
+  color: #fe4f6c;
+}
+.theme-color {
+    color: #fe4f6c;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.gray-bg {
+    background-color: #ebf4fa;
+}
+.px-btn.theme {
+    background: #fe4f6c;
+    color: #ffffff;
+    border: 2px solid #fe4f6c;
+}
+.px-btn {
+    padding: 0 20px;
+    line-height: 42px;
+    border: 2px solid transparent;
+    position: relative;
+    display: inline-block;
+    background: none;
+    border: none;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.px-btn.theme-t {
+    background: transparent;
+    border: 2px solid #fe4f6c;
+    color: #fe4f6c;
+}
+
