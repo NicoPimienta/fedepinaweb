@@ -81,9 +81,18 @@ $dorado: #f6e782;
   font-size: 90%;
 }
 
+
+@media (min-width: 1200px){
+.project-img-responsive-xl{
+padding: 2rem;
+font-size: 90%;
+}
+}
+
+
 @media (min-width: 992px){
 .projects-section-tortu .project-text-tortu {
-    padding: 4rem;
+    padding: 3rem;
 }
 }
 
@@ -383,6 +392,13 @@ $dorado: #f6e782;
   background-color: #c13584;
   border-color: #f8f9fa;
 }
+
+.contacto-btn-face:hover{
+  color: #000;
+  background-color: #2d88ff;
+  border-color: #f8f9fa;
+}
+
 
 
 //FOOTER

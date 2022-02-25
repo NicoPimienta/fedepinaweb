@@ -12383,7 +12383,7 @@ body {
 
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 3rem;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
@@ -12523,9 +12523,16 @@ body {
   font-size: 90%;
 }
 
+@media (min-width: 1200px) {
+  .project-img-responsive-xl {
+    padding: 2rem;
+    font-size: 90%;
+  }
+}
+
 @media (min-width: 992px) {
   .projects-section-tortu .project-text-tortu {
-    padding: 4rem;
+    padding: 3rem;
   }
 }
 
@@ -12849,6 +12856,12 @@ body {
 .contacto-btn-insta:hover {
   color: #000;
   background-color: #c13584;
+  border-color: #f8f9fa;
+}
+
+.contacto-btn-face:hover {
+  color: #000;
+  background-color: #2d88ff;
   border-color: #f8f9fa;
 }
 
